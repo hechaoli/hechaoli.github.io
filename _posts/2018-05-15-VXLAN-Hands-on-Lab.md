@@ -6,7 +6,7 @@ tags: [VXLAN, Network, SDN, Lab]
 ---
 
 # Overview
-In [previous post](/2017/11/23/vxlan), we introduced the concept of VXLAN and
+In [previous post](/posts/vxlan), we introduced the concept of VXLAN and
 analyzed the traffic flow in a VXLAN network. It may help understand VXLAN by
 looking at the real VXLAN traffic. So now it's time to make our hands dirty!
 

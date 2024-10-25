@@ -7,7 +7,7 @@ tags: [Linux, Network, TAP, Lab]
 
 # Overview
 We talked about TUN and TAP interface in [previous
-post](/2018/05/21/Tun-Tap-Interface/). In the article [Tun/Tap interface
+post](/posts/Tun-Tap-Interface/). In the article [Tun/Tap interface
 Tutorial](http://backreference.org/2010/03/26/tuntap-interface-tutorial), the
 author wrote a program to demonstrate the usage of a TUN interface. In this
 post, we will write a program that uses TAP interfaces. The code for this lab
@@ -20,7 +20,7 @@ real hypervisor with all functionalities. We will only simulate the network
 manager part. When a "virtual machine" starts, the "hypervisor" creates a TAP
 interface and associates it with the VM. Then the hypervisor forwards traffic
 between VMs and TAP interfaces. Following is a diagram from [previous
-post](/2018/05/21/Tun-Tap-Interface/).
+post](/posts/Tun-Tap-Interface/).
 
 ![TAP Use Case](/assets/img/tap-use-case.png)
 
@@ -30,7 +30,7 @@ Through this lab, we will:
 
 * Learn how a VM gets network access with the help of the hypervisor and TAP
   interface.
-* Review the usage of [Linux bridge](/2017/12/13/linux-bridge-part1).
+* Review the usage of [Linux bridge](/posts/linux-bridge-part1).
 * Practice Object-Oriented-Programming (OOP) in C++.
 
 # How Do We Implement it?

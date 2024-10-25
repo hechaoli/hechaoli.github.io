@@ -6,7 +6,7 @@ tags: [Algorithm, Java, Rate Limiting]
 ---
 
 # Overview
-In [previous pos](/2018/06/25/rate-limiter-part1), we learned some rate limiting
+In [previous pos](/posts/rate-limiter-part1), we learned some rate limiting
 algorithms. In this article, we will see how rate limiting is implemented in
 [Google Guava library](https://github.com/google/guava).
 

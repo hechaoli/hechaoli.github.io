@@ -115,7 +115,7 @@ static void br_root_selection(struct net_bridge *br)
     ...
 }
 ```
-As we mentioned [here](/2018/08/08/The-Spanning-Tree-Protocol/), in STP, each
+As we mentioned [here](/posts/The-Spanning-Tree-Protocol/), in STP, each
 bridge needs to select a root port. As the name implies, this function is used
 for root port selection. And the flag `BR_ROOT_BLOCK` can be set by the admin to
 prevent a port being selected as the root port.

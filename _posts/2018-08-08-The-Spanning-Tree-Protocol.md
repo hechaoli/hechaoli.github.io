@@ -7,7 +7,7 @@ tags: [Bridge, Network, STP, Algorithm]
 
 # Overview
 We talked about what is a bridge (switch) and how it works
-[here](/2017/12/13/linux-bridge-part1/) and [here](/2017/11/23/vxlan/).
+[here](/posts/linux-bridge-part1/) and [here](/posts/vxlan/).
 However, we only saw the topology in which one bridge is used to merge LANs. In
 real life, redundancy is always necessary in order to provide high availability.
 For example, instead of using only one link between two bridges, we can use two
