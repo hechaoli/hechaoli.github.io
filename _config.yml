@@ -16,7 +16,7 @@ timezone: America/Los_Angeles
 
 title: Hechao's Blog # the main title
 
-tagline: Technical articles and ramblings # it will display as the subtitle
+tagline: Talk is cheap. Show me the code. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Hechao's blog for random technical topics and ramblings.
