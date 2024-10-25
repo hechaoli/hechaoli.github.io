@@ -8,7 +8,7 @@ tags: [Linux, Network, TAP, Lab]
 # Overview
 We talked about TUN and TAP interface in [previous
 post](/posts/Tun-Tap-Interface/). In the article [Tun/Tap interface
-Tutorial](http://backreference.org/2010/03/26/tuntap-interface-tutorial), the
+Tutorial](https://backreference.org/2010/03/26/tuntap-interface-tutorial), the
 author wrote a program to demonstrate the usage of a TUN interface. In this
 post, we will write a program that uses TAP interfaces. The code for this lab
 can be found at [Github](https://github.com/hechaoli/tap-lab).
@@ -322,4 +322,4 @@ the hypervisor and VM more robust. The code can be found at
 # Reference
 [1] [tuntap](https://www.kernel.org/doc/Documentation/networking/tuntap.txt)<br>
 [2] [Tun/Tap interface
-tutorial](http://backreference.org/2010/03/26/tuntap-interface-tutorial/)<br>
+tutorial](https://backreference.org/2010/03/26/tuntap-interface-tutorial/)<br>

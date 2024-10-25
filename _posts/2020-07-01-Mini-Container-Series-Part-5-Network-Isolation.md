@@ -6,7 +6,7 @@ tags: [Container, Linux, Network]
 ---
 
 [This is the sixth article in this series. The previous one can be found
-[here](http://hechao.li/2020/06/25/Mini-Container-Series-Part-4-IPC-Isolation/)].
+[here](https://hechao.li/2020/06/25/Mini-Container-Series-Part-4-IPC-Isolation/)].
 
 # Summary
 Now, we are going to isolate network resources with the help of network
@@ -137,7 +137,7 @@ network).
 The previous example demonstrated how to connect two network namespaces using a
 pair of `veth` devices. To connect 3 or more network namespaces, we can
 leverage Linux bridge. Since I have already talked about Linux bridge in [a
-previous article](https://hechao.li/2017/12/13/linux-bridge-part1/), here, I
+previous article](/posts/linux-bridge-part1/), here, I
 will only show an example of connecting 2 or more containers (network
 namespaces) using a bridge.
 

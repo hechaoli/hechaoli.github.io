@@ -228,13 +228,13 @@ logic so that we can avoid both errors while messing up with checksums.
 ## What is ip6_compute_pseudo?
 
 It calculates the csum of [TCP pseudo
-header](http://www.tcpipguide.com/free/t_TCPChecksumCalculationandtheTCPPseudoHeader-2.htm).
+header](https://www.tcpipguide.com/free/t_TCPChecksumCalculationandtheTCPPseudoHeader-2.htm).
 The result is the psum we’ve seen above.
 
 ![IP pseudo header](/assets/img/ip_pseudo_header.png){: .mx-auto.d-block :}
 
 <div align="center">Image credit:
-http://www.tcpipguide.com/free/t_TCPChecksumCalculationandtheTCPPseudoHeader-2.htm</div>
+https://www.tcpipguide.com/free/t_TCPChecksumCalculationandtheTCPPseudoHeader-2.htm</div>
 
 ## What triggers "hw csum failure"?
 The following conditions must all be met:

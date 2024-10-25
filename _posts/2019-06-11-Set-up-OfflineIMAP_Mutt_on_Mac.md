@@ -13,8 +13,8 @@ client as close to a desktop client (like Outlook or Mail app on Mac) as
 possible.
 
 # Basic Configs
-[Mutt](http://www.mutt.org/) is a powerful text-based email client.
-[OfflineIMAP](http://www.offlineimap.org/) is a Python utility to sync mail
+[Mutt](https://www.mutt.org/) is a powerful text-based email client.
+[OfflineIMAP](https://www.offlineimap.org/) is a Python utility to sync mail
 from IMAP servers. In my setup, I use OfflineIMAP to periodically sync a local
 mail folder with remote outlook email server and use Mutt as an email client to
 read emails from the folder.
@@ -97,7 +97,7 @@ other desktop email clients. So I changed it to 20 seconds by modifying
 
 Till this point, we have finished setting up OfflineIMAP with most basic
 configs, which are enough for a noob like me. For more details, see
-[offlineIMAP documentation](http://www.offlineimap.org/documentation.html).
+[offlineIMAP documentation](https://www.offlineimap.org/documentation.html).
 
 ## Matt: Install and Config
 
@@ -166,7 +166,7 @@ set sidebar_format = "%B%*  %N" # Show number of unread messages
 ## View HTML Email
 Though mutt guarantees that I won’t send any HTML content, I can’t prevent
 people/systems from sending HTML emails to me. Therefore I need a way to view
-them. I use two tools: [w3m](http://w3m.sourceforge.net/), a text based web
+them. I use two tools: [w3m](https://w3m.sourceforge.net/), a text based web
 browser and [muttils](https://github.com/cwarden/muttils), a set of utilities
 for Mutt. The former can help me browse simple HTML in plain text in Mutt. And
 for fancier HTML emails that don’t look good in a text-based browser, I will

@@ -194,7 +194,7 @@ answer](https://superuser.com/questions/1311578/in-console-app-how-can-i-reveal-
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>PayloadContent</key>
@@ -348,7 +348,7 @@ $ make install
 
 Like expected, the new `curl` works!
 ```
-$ /tmp/build/curl http://ipv6-only-endpoint.foo.net/healthcheck
+$ /tmp/build/curl https://ipv6-only-endpoint.foo.net/healthcheck
 OK
 ```
 
@@ -655,7 +655,7 @@ the `Addresses` doesn't even have to be the valid `utun` interface address. Any
 IPv6 address would do as long as Router is right. So the minimal changes to
 make it work are:
 ```bash
-$ curl http://ipv6-only-endpoint.foo.net/healthcheck
+$ curl https://ipv6-only-endpoint.foo.net/healthcheck
 curl: (6) Could not resolve host: ipv6-only-endpoint.foo.net
 
 $ sudo scutil
@@ -673,7 +673,7 @@ $ sudo scutil
   Router : fd00::ac8:c8c8
 }
 
-$ curl http://ipv6-only-endpoint.foo.net/healthcheck
+$ curl https://ipv6-only-endpoint.foo.net/healthcheck
 OK
 ```
 

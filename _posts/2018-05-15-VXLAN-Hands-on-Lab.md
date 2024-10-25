@@ -16,7 +16,7 @@ unicast VM-to-VM traffic.
 
 Since we don't have two hypervisors as VTEPs. we will only simulate the switch
 inside the hypervisor using [OVS VTEP
-Emulator](http://docs.openvswitch.org/en/latest/howto/vtep/), which uses Open
+Emulator](https://docs.openvswitch.org/en/latest/howto/vtep/), which uses Open
 vSwitch (OVS) for forwarding.
 
 All scripts used in this lab can be found at
@@ -24,7 +24,7 @@ All scripts used in this lab can be found at
 
 # OVS VTEP Emulator
 The guide on how to use the VTEP emulator can be found
-[here](http://docs.openvswitch.org/en/latest/howto/vtep/). Since this is not the
+[here](https://docs.openvswitch.org/en/latest/howto/vtep/). Since this is not the
 focus of this lab, I will use a docker iamge of the OVS VTEP emulator I have set
 up. The image is available on
 [Dockerhub](https://hub.docker.com/r/hechaol/ovs-vtep-emulator/).
@@ -98,7 +98,7 @@ $ ovs-vsctl add-port br0 vm1 -- set interface vm1 type=internal
 {: .box-note}
 Note: Since this is a virtual port, we need to set its type to internal. For
 more information, see
-[ovs-vsctl](http://www.openvswitch.org/support/dist-docs/ovs-vsctl.8.txt).
+[ovs-vsctl](https://www.openvswitch.org/support/dist-docs/ovs-vsctl.8.txt).
 
 Confirm the switch and port are added:
 ```bash
@@ -194,7 +194,7 @@ for packets whose destination address is unknown (not appear in ucast macs
 remote table), send them to `10.1.0.1` (Hypervisor 2's tunnel endpoint IP). This
 is a hacky trick. Ideally, the BUM packets should be sent to a service node that
 helps forwards the traffic. For more information, see
-[vtep-ctl](http://www.openvswitch.org/support/dist-docs/vtep-ctl.8.html).
+[vtep-ctl](https://www.openvswitch.org/support/dist-docs/vtep-ctl.8.html).
 
 
 Now we should be able to ping from VM1 to VM2.
@@ -286,10 +286,10 @@ overlay network has the illusion of a single L2 network.
 
 # Reference
 [1] [How to Use the VTEP
-Emulator](http://docs.openvswitch.org/en/latest/howto/vtep/)<br>
-[2] [ovs-vsctl](http://www.openvswitch.org/support/dist-docs/ovs-vsctl.8.txt)<br>
-[3] [vtep-ctl](http://www.openvswitch.org/support/dist-docs/vtep-ctl.8.html)<br>
+Emulator](https://docs.openvswitch.org/en/latest/howto/vtep/)<br>
+[2] [ovs-vsctl](https://www.openvswitch.org/support/dist-docs/ovs-vsctl.8.txt)<br>
+[3] [vtep-ctl](https://www.openvswitch.org/support/dist-docs/vtep-ctl.8.html)<br>
 [4] [hardware_vtep Database
-Schema](http://www.openvswitch.org/support/dist-docs/vtep.5.html)<br>
+Schema](https://www.openvswitch.org/support/dist-docs/vtep.5.html)<br>
 [5] [Docker
 compose](https://docs.docker.com/compose/compose-file/compose-file-v2/)<br>

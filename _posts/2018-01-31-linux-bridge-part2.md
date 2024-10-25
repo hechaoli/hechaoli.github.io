@@ -34,7 +34,7 @@ needed if we want a private bridge.
 
 ## Bridge Data Structure
 The definition of the `net_bridge` struct can be found
-[here](http://elixir.free-electrons.com/linux/v4.0/source/net/bridge/br_private.h#L207).
+[here](https://elixir.free-electrons.com/linux/v4.0/source/net/bridge/br_private.h#L207).
 
 Only some important fields are listed below:
 

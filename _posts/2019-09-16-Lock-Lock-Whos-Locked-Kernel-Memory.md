@@ -25,7 +25,7 @@ After some debugging, I found the failure was because the call to `mmap`
 returns `EPERM`, which means "Operation not permitted".
 
 According to [capability man
-page](http://man7.org/linux/man-pages/man7/capabilities.7.html), mmap needs
+page](https://man7.org/linux/man-pages/man7/capabilities.7.html), mmap needs
 `CAP_IPC_LOCK` capability. After talking to security team, we figured that due
 to a recent change, even though our container runs a root, we still need to
 request `CAP_IPC_LOCK` capability separately. After using the API provided by

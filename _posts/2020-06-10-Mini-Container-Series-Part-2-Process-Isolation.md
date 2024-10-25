@@ -6,7 +6,7 @@ tags: [Container, Linux]
 ---
 
 [This is the third article in this series. The previous one is
-[here](http://hechao.li/2020/06/09/Mini-Container-Series-Part-1-Filesystem-Isolation/)].
+[here](https://hechao.li/2020/06/09/Mini-Container-Series-Part-1-Filesystem-Isolation/)].
 
 # Summary
 Next, we are going to make the container think that it is the only process
@@ -24,7 +24,7 @@ of files. It can be seen as an interface to internal data structures in the
 kernel.
 
 Typically, **procfs is mounted at `/proc`**. Recall that in the [last
-article](http://hechao.li/2020/06/09/Mini-Container-Series-Part-1-Filesystem-Isolation/),
+article](https://hechao.li/2020/06/09/Mini-Container-Series-Part-1-Filesystem-Isolation/),
 the final step of preparing the filesystem for the container was to mount the
 *procfs*. Without `/proc`, utilities like `ps` won't work. And last time we
 mounted `/proc` because we would like to examine `/proc/self/mountinfo` file.

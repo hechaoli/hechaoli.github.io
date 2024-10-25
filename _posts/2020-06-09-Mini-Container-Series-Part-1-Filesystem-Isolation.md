@@ -6,7 +6,7 @@ tags: [Container, Linux]
 ---
 
 [This is the second article in this series. The first one is
-[here](http://hechao.li/2020/06/09/Mini-Container-Series-Part-0-Not-a-Real-Container/)].
+[here](/posts/Mini-Container-Series-Part-0-Not-a-Real-Container/)].
 
 # Summary
 For the first step, we are going to make the container think that it owns the

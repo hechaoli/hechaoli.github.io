@@ -11,7 +11,7 @@ running on the same host.
 
 The tools and technologies I'm going to use to achieve the task are:
 * [Traffic Control (TC)](https://man7.org/linux/man-pages/man8/tc.8.html)
-* [Hierarchical Token Bucket (HTB)](http://luxik.cdi.cz/~devik/qos/htb/manual/userg.htm)
+* [Hierarchical Token Bucket (HTB)](https://luxik.cdi.cz/~devik/qos/htb/manual/userg.htm)
 * [Intermediate Functional Block (IFB)](https://wiki.linuxfoundation.org/networking/ifb)
 * [extended Berkeley Packet Filter (eBPF)](https://ebpf.io/)
 
@@ -36,7 +36,7 @@ We'll use `tc` for traffic shaping / bandwidth limiting.
 ## Hierarchical Token Bucket (HTB)
 
 HTB is one of the classful queue disciplines (qdisc) of `tc`. [This
-doc](http://luxik.cdi.cz/~devik/qos/htb/manual/userg.htm) is a very good
+doc](https://luxik.cdi.cz/~devik/qos/htb/manual/userg.htm) is a very good
 introduction of HTB, covering both the theory and the application. [man
 tc-htb(8)](https://man7.org/linux/man-pages/man8/tc-htb.8.html) has more
 detailed information about how to use HTB in `tc`.

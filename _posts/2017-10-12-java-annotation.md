@@ -122,7 +122,7 @@ types are limited to:
 * An array containing one of the above types
 
 The similarity between interface and annotation is not a coincidence. In fact, annotations are visible to the JVM as
-plain interfaces extending [Annotation](http://docs.oracle.com/javase/8/docs/api/java/lang/annotation/Annotation.html)
+plain interfaces extending [Annotation](https://docs.oracle.com/javase/8/docs/api/java/lang/annotation/Annotation.html)
 interface and the annotation elements are visible as abstract methods. It is also possible to create static fields,
 static classes and enums inside an annotation. It is, however, impossible to create a
 new annotation type by extending existing annotation type.
@@ -386,9 +386,9 @@ even before Java 8.
 public class Student {
 }
 ```
-For more information, see [https://docs.oracle.com/javase/tutorial/java/annotations/repeating.html]().
+For more information, see [this tutorial](https://docs.oracle.com/javase/tutorial/java/annotations/repeating.html]).
 
 # References
-* [https://docs.oracle.com/javase/tutorial/java/annotations/index.html]()
-* [https://softwarecave.org/2014/05/02/custom-annotations-in-java/]()
-* [https://www.developer.com/java/other/article.php/3556176/An-Introduction-to-Java-Annotations.htm]()
+* https://docs.oracle.com/javase/tutorial/java/annotations/index.html
+* https://softwarecave.org/2014/05/02/custom-annotations-in-java/
+* https://www.developer.com/java/other/article.php/3556176/An-Introduction-to-Java-Annotations.htm

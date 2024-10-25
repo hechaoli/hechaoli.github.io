@@ -16,7 +16,7 @@ diving into SDN.
 Linux Bridge is a kernel module that was first introduced in 2.2 kernel, then
 rewritten by Lennert Buytenhek. The code for bridging has been integrated into
 2.4 and 2.6 kernel series. It implements a subset of the [ANSI/IEEE 802.1d
-standard](http://ieeexplore.ieee.org/document/1309630/). In the end of the
+standard](https://ieeexplore.ieee.org/document/1309630/). In the end of the
 article, we will use a lab to learn the usage of Linux Bridge.
 
 # What Is a Bridge?
@@ -371,7 +371,7 @@ theory and helps us understand how exactly the bridge works.
 # Reference
 [1] Understanding Linux Network Internals by Christian Benvenuti  
 [2] [Linux Bridge and Virtual
-Networking](http://www.innervoice.in/blogs/2013/12/02/linux-bridge-virtual-networking/)  
-[3] [Linux BRIDGE-STP-HOWTO](http://www.tldp.org/HOWTO/BRIDGE-STP-HOWTO/index.html)  
-[4] [Tap Interfaces and Linux Bridge](http://www.innervoice.in/blogs/2013/12/08/tap-interfaces-linux-bridge/)  
+Networking](https://www.innervoice.in/blogs/2013/12/02/linux-bridge-virtual-networking/)  
+[3] [Linux BRIDGE-STP-HOWTO](https://www.tldp.org/HOWTO/BRIDGE-STP-HOWTO/index.html)  
+[4] [Tap Interfaces and Linux Bridge](https://www.innervoice.in/blogs/2013/12/08/tap-interfaces-linux-bridge/)  
 [5] [Configuring Guest Networking](https://www.linux-kvm.org/page/Networking)

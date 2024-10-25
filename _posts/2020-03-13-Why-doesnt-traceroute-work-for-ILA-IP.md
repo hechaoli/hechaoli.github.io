@@ -232,7 +232,7 @@ very strange to me. As we all know, UDP is a connectionless protocol. Why does
 it even need to call `connect`?
 
 According to [`connect` syscall man
-page](http://man7.org/linux/man-pages/man2/connect.2.html),
+page](https://man7.org/linux/man-pages/man2/connect.2.html),
 
 > The connect() system call connects the socket referred to by the file
 > descriptor sockfd to the address specified by addr.

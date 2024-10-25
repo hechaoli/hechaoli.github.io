@@ -26,7 +26,7 @@ $ top -p <pid> # Show stats of specific process
 ```
 Result explanation:
 * Line 1: \<Current time\> \<How long the computer has been running\> \<Number of users\> \<[Load
-  Average](http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages)\>
+  Average](https://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages)\>
 
   Example: top - 07:33:07 up 40 days, 23:03,  3 users,  load average: 0.00, 0.00, 0.00
 * Line 2: \<Total number of tasks\> \<Number of running tasks\> \<Number of sleeping tasks\> \<Number of stopped tasks\>
@@ -34,13 +34,13 @@ Result explanation:
 
   Example: Tasks: 229 total,   1 running, 228 sleeping,   0 stopped,   0 zombie
 * Line 3: \<CPU usage by the user\> \<CPU usage by system\> \<CPU usage by low priority processes\> \<CPU usage by [idle
-processes](http://duartes.org/gustavo/blog/post/what-does-an-idle-cpu-do/)\> \<CPU usage as a percentage by [io wait](http://blog.scoutapp.com/articles/2011/02/10/understanding-disk-i-o-when-should-you-be-worried)\> \<CPU usage by [hardware interrupts](https://unix.stackexchange.com/questions/17998/what-are-software-and-hardware-interrupts-and-how-are-they-processed)\> \<CPU usage by software
+processes](https://duartes.org/gustavo/blog/post/what-does-an-idle-cpu-do/)\> \<CPU usage as a percentage by [io wait](https://blog.scoutapp.com/articles/2011/02/10/understanding-disk-i-o-when-should-you-be-worried)\> \<CPU usage by [hardware interrupts](https://unix.stackexchange.com/questions/17998/what-are-software-and-hardware-interrupts-and-how-are-they-processed)\> \<CPU usage by software
 interrupts\> \<CPU usage by [steal
-time](http://blog.scoutapp.com/articles/2013/07/25/understanding-cpu-steal-time-when-should-you-be-worried)\>
+time](https://blog.scoutapp.com/articles/2013/07/25/understanding-cpu-steal-time-when-should-you-be-worried)\>
 
   Example: %Cpu(s):  0.3 us,  0.0 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 * Line 4: \<Total system memory\>  \<Free memory\> \<Memory used\> \<[Buffer
-  cache](http://www.linuxhowtos.org/System/Linux%20Memory%20Management.htm)\>
+  cache](https://www.linuxhowtos.org/System/Linux%20Memory%20Management.htm)\>
 
   Example: KiB Mem : 16430776 total,  4949560 free,  2204728 used,  9276488 buff/cache
 * Line 5: \<Total swap available\> \<Total swap free\> \<Total swap used\> \<Available memory\>
@@ -103,19 +103,19 @@ $ jmap -dump:format=b,file=heapdump.hprof <pid> # Dump the heap in hprof format 
 
 ## Java Native Memory Tracking
 Supported since Java 8. It can be used to track internal memory usage for a HotSpot JVM.
-[http://docs.oracle.com/javase/8/docs/technotes/guides/vm/nmt-8.html]()
-[http://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr007.html]()
+https://docs.oracle.com/javase/8/docs/technotes/guides/vm/nmt-8.html
+https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr007.html
 
 # Useful Tools
 ## Yourkit Java Profiler
-[https://www.yourkit.com/java/profiler/features]()
+[Home page](https://www.yourkit.com/java/profiler/features])
 
 ### Remote Profiling Setup
-Official Guide: [https://www.yourkit.com/docs/java/help/remote_profiling.jsp]()
+[Official Guide](https://www.yourkit.com/docs/java/help/remote_profiling.jsp])
 
 To sumarize, there are two ways to remote profile an application. One is using Yourkit's [console version of Java EE
 server integration wizard](https://www.yourkit.com/docs/java/help/profiling_j2ee_remote.jsp), which is foolproof. The other way is to enable profiling manually by starting JVM with
-additional options. See [https://www.yourkit.com/docs/java/help/agent.jsp](). The option is in format `-agentpath:<full agent library
+additional options. See [this doc](https://www.yourkit.com/docs/java/help/agent.jsp]). The option is in format `-agentpath:<full agent library
 path>[=<option>, ...]`. For full set of options, see [startup_options](https://www.yourkit.com/docs/java/help/startup_options.jsp)
 
 ### Port Forwarding
@@ -149,11 +149,11 @@ $ java -jar yjp-controller-api-redist.jar localhost 12345 capture-performance-sn
 ```
 
 ## JProfiler (TODO)
-[https://www.ej-technologies.com/products/jprofiler/overview.html]()
+[Overview](https://www.ej-technologies.com/products/jprofiler/overview.html])
 
 Similar to Yourkit. But I have no experience.
 
 ## JVisualVm
 This is a Java Virtual Machine Monitoring, Troubleshooting, and Profiling Tool provided by JDK. I have no experience
 and I am not sure if it is as good as YourKit or JProfiler. But this is a free tool.
-See [jvisualvm](http://docs.oracle.com/javase/7/docs/technotes/tools/share/jvisualvm.html)
+See [jvisualvm](https://docs.oracle.com/javase/7/docs/technotes/tools/share/jvisualvm.html)

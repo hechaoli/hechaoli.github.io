@@ -79,7 +79,7 @@ our cross-cutting concern a whole piece of code so that you can reuse it easily.
 
 ### Pointcut
 The definition of a pointcut from the AspectJ
-[doc](http://www.eclipse.org/aspectj/doc/next/progguide/semantics-pointcuts.html):
+[doc](https://www.eclipse.org/aspectj/doc/next/progguide/semantics-pointcuts.html):
 
 >A pointcut is a program element that picks out join points and exposes data
 >from the execution context of those join points. Pointcuts are used primarily
@@ -94,7 +94,7 @@ methods you want to have the aspect.
 
 ### Advice
 The definition of a pointcut from the AspectJ
-[doc](http://www.eclipse.org/aspectj/doc/released/progguide/language-anatomy.html#advice):
+[doc](https://www.eclipse.org/aspectj/doc/released/progguide/language-anatomy.html#advice):
 
 >A piece of advice brings together a pointcut and a body of code to define
 >aspect implementation that runs at join points picked out by the pointcut.
@@ -177,5 +177,5 @@ either provided explicitly by the run-time environment or enabled using a
 "weaving agent".
 
 # Reference
-[https://blog.espenberntsen.net/2010/03/20/aspectj-cheat-sheet/]()
-[http://www.baeldung.com/aspectj]()
+https://blog.espenberntsen.net/2010/03/20/aspectj-cheat-sheet/
+https://www.baeldung.com/aspectj

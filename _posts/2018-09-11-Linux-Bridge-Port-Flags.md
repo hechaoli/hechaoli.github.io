@@ -23,7 +23,7 @@ Linux bridge can set flags on a port. The defined flags (until Linux 4.0) are:
 
 Unfortunately the code doesn't have comments explaining what does these flags
 mean. Thus, we have to figure it out from the code. The bridge [man
-page](http://man7.org/linux/man-pages/man8/bridge.8.html) is also very helpful.
+page](https://man7.org/linux/man-pages/man8/bridge.8.html) is also very helpful.
 
 The code we are going to walk through is [Linux
 4.0](https://elixir.bootlin.com/linux/v4.0/source).
@@ -528,4 +528,4 @@ See [this commit](https://patchwork.ozlabs.org/patch/415862/).
 
 # Reference
 [1] [if_bridge.h](https://elixir.bootlin.com/linux/v4.0/source/include/linux/if_bridge.h)<br>
-[2] [BRIDGE 8](http://man7.org/linux/man-pages/man8/bridge.8.html)<br>
+[2] [BRIDGE 8](https://man7.org/linux/man-pages/man8/bridge.8.html)<br>

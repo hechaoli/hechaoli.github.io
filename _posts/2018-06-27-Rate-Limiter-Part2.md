@@ -6,7 +6,7 @@ tags: [Algorithm, Java, Rate Limiting]
 ---
 
 # Overview
-In [previous pos](/posts/rate-limiter-part1), we learned some rate limiting
+In [previous post](/posts/Rate-Limiter-Part1/), we learned some rate limiting
 algorithms. In this article, we will see how rate limiting is implemented in
 [Google Guava library](https://github.com/google/guava).
 
@@ -228,7 +228,7 @@ void resync(long nowMicros) {
 Here we see that it calls subclass's `coolDownIntervalMicros()` to determine how
 many permits we need to add to `storedPermits`. This is similar to lazily
 refilled tokens in token bucket algorithm we discussed in [previous
-article](2018/06/25/Rate-Limiter-Part1/).
+article](/posts/Rate-Limiter-Part1/).
 
 `resync()` is called before reserving permits. See `reserveEarliestAvailable`
 below.

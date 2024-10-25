@@ -169,7 +169,7 @@ if they see a higher number. And this number can inspire you to write more tests
 for your software. Try to get 100%! I use [coveralls](https://coveralls.io/)
 together with [coveralls maven
 plugin](https://github.com/trautonen/coveralls-maven-plugin) and
-[cobertura](http://cobertura.github.io/cobertura/).
+[cobertura](https://cobertura.github.io/cobertura/).
 
 ## Release
 When you are confident with the reliablity of your code, you can consider the
@@ -177,7 +177,7 @@ first release. You can create a release on Github with your deliverables. For a
 library that can be used in other projects, you can put your binaries on a
 dependency management central repository such as the maven central repository.
 For a maven open source project, the easiest way is to use [Open Source Software
-Repository Hosting (OSSRH)](http://central.sonatype.org/pages/ossrh-guide.html).
+Repository Hosting (OSSRH)](https://central.sonatype.org/pages/ossrh-guide.html).
 
 # Conclusion
 This is my first time launching an open source project and everything I said is

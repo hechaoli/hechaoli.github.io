@@ -6,7 +6,7 @@ tags: [Container, Linux]
 ---
 
 [This is the fifth article in this series. The previous one is
-[here](http://hechao.li/2020/06/18/Mini-Container-Series-Part-3-Host-and-Domain-Name-Isolation/)].
+[here](https://hechao.li/2020/06/18/Mini-Container-Series-Part-3-Host-and-Domain-Name-Isolation/)].
 
 # Summary
 While doing process isolation, we isolated processes running inside the
@@ -35,10 +35,10 @@ There are 3 IPC mechanisms on UNIX systems:
 For each mechanism, there are two sets of APIs: System V APIs and POSIX APIs.
 Though they are the same functionality wise, they may use different kernel
 interfaces under `/proc`. As mentioned in [Part 2: Filesystem
-isolation](http://hechao.li/2020/06/10/Mini-Container-Series-Part-2-Process-Isolation/),
+isolation](https://hechao.li/2020/06/10/Mini-Container-Series-Part-2-Process-Isolation/),
 **`/proc` can be seen as an interface internal data structures in the kernel**.
 And as seen in [Part 3: Host and domain name
-isolation](http://hechao.li/2020/06/18/Mini-Container-Series-Part-3-Host-and-Domain-Name-Isolation/),
+isolation](https://hechao.li/2020/06/18/Mini-Container-Series-Part-3-Host-and-Domain-Name-Isolation/),
 without proper namespace isolation, the container can have the same view of
 files in `/proc` as the host even if they are on different file systems.
 

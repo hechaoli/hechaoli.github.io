@@ -63,7 +63,7 @@ $ sudo ifconfig portB_0 up
 ```
 
 Above commands will create two bridges and two links ([veth
-devices](http://man7.org/linux/man-pages/man4/veth.4.html)) between them. Note,
+devices](https://man7.org/linux/man-pages/man4/veth.4.html)) between them. Note,
 we only enable one link `portA_0 - portB_0` between two bridges for
 now.
 
@@ -422,4 +422,4 @@ re-enable `portC_1`. I will leave this experiment to the reader.
 # Reference
 [1] Benvenuti, Christian. Understanding Linux network internals. "O’Reilly
 Media, Inc."", 2006. <br>
-[2] [BRIDGE 8](http://man7.org/linux/man-pages/man8/bridge.8.html)<br>
+[2] [BRIDGE 8](https://man7.org/linux/man-pages/man8/bridge.8.html)<br>
